@@ -4,7 +4,7 @@ import io from "socket.io-client";
 
 import "./Chat.css";
 
-const socket = io("http://localhost:3001");
+const socket = io("https://realtime-chat-backend-1zzr.onrender.com");
 
 function Chat() {
 
